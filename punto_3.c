@@ -29,9 +29,10 @@ int main()
     {
         printf("\n Nombre: ");
         puts(V[i]);
+        
     }
     
-  
+    free(*V);
     return 0;
 }
 
